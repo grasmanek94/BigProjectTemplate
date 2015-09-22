@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\auto-handle.hxx" />
+    <ClInclude Include="libodb-sqlite\odb\sqlite\binding.hxx" />
+    <ClInclude Include="libodb-sqlite\odb\sqlite\connection-factory.hxx" />
+    <ClInclude Include="libodb-sqlite\odb\sqlite\connection.hxx" />
+    <ClInclude Include="libodb-sqlite\odb\sqlite\container-statements.hxx" />
+    <ClInclude Include="libodb-sqlite\odb\sqlite\database.hxx" />
+    <ClInclude Include="libodb-sqlite\odb\sqlite\details\config.hxx" />
+    <ClInclude Include="libodb-sqlite\odb\sqlite\details\conversion.hxx" />
+    <ClInclude Include="libodb-sqlite\odb\sqlite\details\export.hxx" />
+    <ClInclude Include="libodb-sqlite\odb\sqlite\details\options.hxx" />
+    <ClInclude Include="libodb-sqlite\odb\sqlite\error.hxx" />
+    <ClInclude Include="libodb-sqlite\odb\sqlite\exceptions.hxx" />
+    <ClInclude Include="libodb-sqlite\odb\sqlite\forward.hxx" />
+    <ClInclude Include="libodb-sqlite\odb\sqlite\no-id-object-result.hxx" />
+    <ClInclude Include="libodb-sqlite\odb\sqlite\no-id-object-statements.hxx" />
+    <ClInclude Include="libodb-sqlite\odb\sqlite\polymorphic-object-result.hxx" />
+    <ClInclude Include="libodb-sqlite\odb\sqlite\polymorphic-object-statements.hxx" />
+    <ClInclude Include="libodb-sqlite\odb\sqlite\prepared-query.hxx" />
+    <ClInclude Include="libodb-sqlite\odb\sqlite\query-dynamic.hxx" />
+    <ClInclude Include="libodb-sqlite\odb\sqlite\query.hxx" />
+    <ClInclude Include="libodb-sqlite\odb\sqlite\section-statements.hxx" />
+    <ClInclude Include="libodb-sqlite\odb\sqlite\simple-object-result.hxx" />
+    <ClInclude Include="libodb-sqlite\odb\sqlite\simple-object-statements.hxx" />
+    <ClInclude Include="libodb-sqlite\odb\sqlite\sqlite-types.hxx" />
+    <ClInclude Include="libodb-sqlite\odb\sqlite\statement-cache.hxx" />
+    <ClInclude Include="libodb-sqlite\odb\sqlite\statement.hxx" />
+    <ClInclude Include="libodb-sqlite\odb\sqlite\statements-base.hxx" />
+    <ClInclude Include="libodb-sqlite\odb\sqlite\tracer.hxx" />
+    <ClInclude Include="libodb-sqlite\odb\sqlite\traits-calls.hxx" />
+    <ClInclude Include="libodb-sqlite\odb\sqlite\traits.hxx" />
+    <ClInclude Include="libodb-sqlite\odb\sqlite\transaction-impl.hxx" />
+    <ClInclude Include="libodb-sqlite\odb\sqlite\transaction.hxx" />
+    <ClInclude Include="libodb-sqlite\odb\sqlite\version.hxx" />
+    <ClInclude Include="libodb-sqlite\odb\sqlite\view-result.hxx" />
+    <ClInclude Include="libodb-sqlite\odb\sqlite\view-statements.hxx" />
+    <ClInclude Include="libodb\odb\cache-traits.hxx" />
+    <ClInclude Include="libodb\odb\callback.hxx" />
+    <ClInclude Include="libodb\odb\compilers\vc\post.hxx" />
+    <ClInclude Include="libodb\odb\compilers\vc\pre.hxx" />
+    <ClInclude Include="libodb\odb\connection.hxx" />
+    <ClInclude Include="libodb\odb\container-traits.hxx" />
+    <ClInclude Include="libodb\odb\core.hxx" />
+    <ClInclude Include="libodb\odb\database.hxx" />
+    <ClInclude Include="libodb\odb\details\buffer.hxx" />
+    <ClInclude Include="libodb\odb\details\c-string.hxx" />
+    <ClInclude Include="libodb\odb\details\condition.hxx" />
+    <ClInclude Include="libodb\odb\details\config.hxx" />
+    <ClInclude Include="libodb\odb\details\exception.hxx" />
+    <ClInclude Include="libodb\odb\details\export.hxx" />
+    <ClInclude Include="libodb\odb\details\function-wrapper.hxx" />
+    <ClInclude Include="libodb\odb\details\lock.hxx" />
+    <ClInclude Include="libodb\odb\details\meta\answer.hxx" />
+    <ClInclude Include="libodb\odb\details\meta\class-p.hxx" />
+    <ClInclude Include="libodb\odb\details\meta\polymorphic-p.hxx" />
+    <ClInclude Include="libodb\odb\details\meta\remove-const-volatile.hxx" />
+    <ClInclude Include="libodb\odb\details\meta\remove-const.hxx" />
+    <ClInclude Include="libodb\odb\details\meta\remove-pointer.hxx" />
+    <ClInclude Include="libodb\odb\details\meta\remove-volatile.hxx" />
+    <ClInclude Include="libodb\odb\details\meta\static-assert.hxx" />
+    <ClInclude Include="libodb\odb\details\mutex.hxx" />
+    <ClInclude Include="libodb\odb\details\posix\condition.hxx" />
+    <ClInclude Include="libodb\odb\details\posix\exceptions.hxx" />
+    <ClInclude Include="libodb\odb\details\posix\mutex.hxx" />
+    <ClInclude Include="libodb\odb\details\posix\thread.hxx" />
+    <ClInclude Include="libodb\odb\details\posix\tls.hxx" />
+    <ClInclude Include="libodb\odb\details\shared-ptr-fwd.hxx" />
+    <ClInclude Include="libodb\odb\details\shared-ptr.hxx" />
+    <ClInclude Include="libodb\odb\details\shared-ptr\base.hxx" />
+    <ClInclude Include="libodb\odb\details\shared-ptr\counter-type.hxx" />
+    <ClInclude Include="libodb\odb\details\shared-ptr\exception.hxx" />
+    <ClInclude Include="libodb\odb\details\thread.hxx" />
+    <ClInclude Include="libodb\odb\details\tls.hxx" />
+    <ClInclude Include="libodb\odb\details\transfer-ptr.hxx" />
+    <ClInclude Include="libodb\odb\details\type-info.hxx" />
+    <ClInclude Include="libodb\odb\details\unique-ptr.hxx" />
+    <ClInclude Include="libodb\odb\details\unused.hxx" />
+    <ClInclude Include="libodb\odb\details\win32\condition.hxx" />
+    <ClInclude Include="libodb\odb\details\win32\exceptions.hxx" />
+    <ClInclude Include="libodb\odb\details\win32\init.hxx" />
+    <ClInclude Include="libodb\odb\details\win32\lock.hxx" />
+    <ClInclude Include="libodb\odb\details\win32\mutex.hxx" />
+    <ClInclude Include="libodb\odb\details\win32\once-init.hxx" />
+    <ClInclude Include="libodb\odb\details\win32\once.hxx" />
+    <ClInclude Include="libodb\odb\details\win32\thread.hxx" />
+    <ClInclude Include="libodb\odb\details\win32\tls-init.hxx" />
+    <ClInclude Include="libodb\odb\details\win32\tls.hxx" />
+    <ClInclude Include="libodb\odb\details\win32\windows.hxx" />
+    <ClInclude Include="libodb\odb\details\wrapper-p.hxx" />
+    <ClInclude Include="libodb\odb\exception.hxx" />
+    <ClInclude Include="libodb\odb\exceptions.hxx" />
+    <ClInclude Include="libodb\odb\forward.hxx" />
+    <ClInclude Include="libodb\odb\function-table.hxx" />
+    <ClInclude Include="libodb\odb\lazy-pointer-traits.hxx" />
+    <ClInclude Include="libodb\odb\lazy-ptr-impl.hxx" />
+    <ClInclude Include="libodb\odb\lazy-ptr.hxx" />
+    <ClInclude Include="libodb\odb\no-id-object-result.hxx" />
+    <ClInclude Include="libodb\odb\no-op-cache-traits.hxx" />
+    <ClInclude Include="libodb\odb\nullable.hxx" />
+    <ClInclude Include="libodb\odb\object-result.hxx" />
+    <ClInclude Include="libodb\odb\pointer-traits.hxx" />
+    <ClInclude Include="libodb\odb\polymorphic-info.hxx" />
+    <ClInclude Include="libodb\odb\polymorphic-map.hxx" />
+    <ClInclude Include="libodb\odb\polymorphic-object-result.hxx" />
+    <ClInclude Include="libodb\odb\post.hxx" />
+    <ClInclude Include="libodb\odb\pre.hxx" />
+    <ClInclude Include="libodb\odb\prepared-query.hxx" />
+    <ClInclude Include="libodb\odb\query-dynamic.hxx" />
+    <ClInclude Include="libodb\odb\query.hxx" />
+    <ClInclude Include="libodb\odb\result.hxx" />
+    <ClInclude Include="libodb\odb\schema-catalog-impl.hxx" />
+    <ClInclude Include="libodb\odb\schema-catalog.hxx" />
+    <ClInclude Include="libodb\odb\schema-version.hxx" />
+    <ClInclude Include="libodb\odb\section.hxx" />
+    <ClInclude Include="libodb\odb\session.hxx" />
+    <ClInclude Include="libodb\odb\simple-object-result.hxx" />
+    <ClInclude Include="libodb\odb\statement-processing-common.hxx" />
+    <ClInclude Include="libodb\odb\statement.hxx" />
+    <ClInclude Include="libodb\odb\std-array-traits.hxx" />
+    <ClInclude Include="libodb\odb\std-deque-traits.hxx" />
+    <ClInclude Include="libodb\odb\std-forward-list-traits.hxx" />
+    <ClInclude Include="libodb\odb\std-list-traits.hxx" />
+    <ClInclude Include="libodb\odb\std-map-traits.hxx" />
+    <ClInclude Include="libodb\odb\std-set-traits.hxx" />
+    <ClInclude Include="libodb\odb\std-unordered-map-traits.hxx" />
+    <ClInclude Include="libodb\odb\std-unordered-set-traits.hxx" />
+    <ClInclude Include="libodb\odb\std-vector-traits.hxx" />
+    <ClInclude Include="libodb\odb\tr1\lazy-pointer-traits.hxx" />
+    <ClInclude Include="libodb\odb\tr1\lazy-ptr.hxx" />
+    <ClInclude Include="libodb\odb\tr1\memory.hxx" />
+    <ClInclude Include="libodb\odb\tr1\pointer-traits.hxx" />
+    <ClInclude Include="libodb\odb\tr1\wrapper-traits.hxx" />
+    <ClInclude Include="libodb\odb\tracer.hxx" />
+    <ClInclude Include="libodb\odb\traits.hxx" />
+    <ClInclude Include="libodb\odb\transaction.hxx" />
+    <ClInclude Include="libodb\odb\vector-impl.hxx" />
+    <ClInclude Include="libodb\odb\vector-traits.hxx" />
+    <ClInclude Include="libodb\odb\vector.hxx" />
+    <ClInclude Include="libodb\odb\version.hxx" />
+    <ClInclude Include="libodb\odb\view-image.hxx" />
+    <ClInclude Include="libodb\odb\view-result.hxx" />
+    <ClInclude Include="libodb\odb\wrapper-traits.hxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libodb-sqlite\odb\sqlite\connection-factory.cxx" />
+    <ClCompile Include="libodb-sqlite\odb\sqlite\connection.cxx" />
+    <ClCompile Include="libodb-sqlite\odb\sqlite\database.cxx" />
+    <ClCompile Include="libodb-sqlite\odb\sqlite\details\options.cxx" />
+    <ClCompile Include="libodb-sqlite\odb\sqlite\error.cxx" />
+    <ClCompile Include="libodb-sqlite\odb\sqlite\exceptions.cxx" />
+    <ClCompile Include="libodb-sqlite\odb\sqlite\prepared-query.cxx" />
+    <ClCompile Include="libodb-sqlite\odb\sqlite\query-const-expr.cxx" />
+    <ClCompile Include="libodb-sqlite\odb\sqlite\query-dynamic.cxx" />
+    <ClCompile Include="libodb-sqlite\odb\sqlite\query.cxx" />
+    <ClCompile Include="libodb-sqlite\odb\sqlite\simple-object-statements.cxx" />
+    <ClCompile Include="libodb-sqlite\odb\sqlite\statement-cache.cxx" />
+    <ClCompile Include="libodb-sqlite\odb\sqlite\statement.cxx" />
+    <ClCompile Include="libodb-sqlite\odb\sqlite\statements-base.cxx" />
+    <ClCompile Include="libodb-sqlite\odb\sqlite\tracer.cxx" />
+    <ClCompile Include="libodb-sqlite\odb\sqlite\traits.cxx" />
+    <ClCompile Include="libodb-sqlite\odb\sqlite\transaction-impl.cxx" />
+    <ClCompile Include="libodb-sqlite\odb\sqlite\transaction.cxx" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E7B57DBB-9C62-4B2E-AE8F-770639A7427E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>libodb-sqlite</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>libodb-sqlite</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)BUILD\TEMP\$(Platform)-$(Configuration)\$(ProjectName)\</IntDir>
+    <LibraryPath>$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)BUILD\TEMP\$(Platform)-$(Configuration)\$(ProjectName)\</IntDir>
+    <LibraryPath>$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)BUILD\TEMP\$(Platform)-$(Configuration)\$(ProjectName)\</IntDir>
+    <LibraryPath>$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)BUILD\TEMP\$(Platform)-$(Configuration)\$(ProjectName)\</IntDir>
+    <LibraryPath>$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>LIBODB_SQLITE_STATIC_LIB;LIBODB_STATIC_LIB;WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>.\;.\libodb\;.\libodb\odb;.\libodb\odb\compilers;.\libodb\odb\compilers\vc;.\libodb\odb\tr1;.\libodb\odb\details;.\libodb\odb\details\meta;.\libodb\odb\details\posix;.\libodb\odb\details\shared-ptr;.\libodb\odb\details\win32;.\libodb-sqlite;.\libodb-sqlite\odb;.\libodb-sqlite\odb\sqlite;.\libodb-sqlite\odb\sqlite\details;.\sqlite-amalgamation;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>LIBODB_SQLITE_STATIC_LIB;LIBODB_STATIC_LIB;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>.\;.\libodb\;.\libodb\odb;.\libodb\odb\compilers;.\libodb\odb\compilers\vc;.\libodb\odb\tr1;.\libodb\odb\details;.\libodb\odb\details\meta;.\libodb\odb\details\posix;.\libodb\odb\details\shared-ptr;.\libodb\odb\details\win32;.\libodb-sqlite;.\libodb-sqlite\odb;.\libodb-sqlite\odb\sqlite;.\libodb-sqlite\odb\sqlite\details;.\sqlite-amalgamation;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>LIBODB_SQLITE_STATIC_LIB;LIBODB_STATIC_LIB;WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>.\;.\libodb\;.\libodb\odb;.\libodb\odb\compilers;.\libodb\odb\compilers\vc;.\libodb\odb\tr1;.\libodb\odb\details;.\libodb\odb\details\meta;.\libodb\odb\details\posix;.\libodb\odb\details\shared-ptr;.\libodb\odb\details\win32;.\libodb-sqlite;.\libodb-sqlite\odb;.\libodb-sqlite\odb\sqlite;.\libodb-sqlite\odb\sqlite\details;.\sqlite-amalgamation;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>LIBODB_SQLITE_STATIC_LIB;LIBODB_STATIC_LIB;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>.\;.\libodb\;.\libodb\odb;.\libodb\odb\compilers;.\libodb\odb\compilers\vc;.\libodb\odb\tr1;.\libodb\odb\details;.\libodb\odb\details\meta;.\libodb\odb\details\posix;.\libodb\odb\details\shared-ptr;.\libodb\odb\details\win32;.\libodb-sqlite;.\libodb-sqlite\odb;.\libodb-sqlite\odb\sqlite;.\libodb-sqlite\odb\sqlite\details;.\sqlite-amalgamation;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="dummy">
+      <UniqueIdentifier>{e5ce52e0-eaad-4c9e-aaa1-45e76a88cba6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="project\dummy\dummy.cxx">
+      <Filter>dummy</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="project\dummy\dummy.hxx">
+      <Filter>dummy</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

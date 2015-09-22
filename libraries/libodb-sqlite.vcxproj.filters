@@ -1,0 +1,492 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{766b2407-f9d2-4e55-a51c-0f8c731888ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{de420032-1547-4077-b786-5709433938ab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libodb\odb\vector-impl.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\version.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\meta\answer.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\shared-ptr\base.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\buffer.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\cache-traits.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\callback.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\meta\class-p.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\condition.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\posix\condition.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\win32\condition.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\config.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\connection.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\container-traits.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\core.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\shared-ptr\counter-type.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\c-string.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\database.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\exception.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\shared-ptr\exception.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\exception.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\posix\exceptions.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\win32\exceptions.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\exceptions.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\export.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\forward.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\function-table.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\win32\init.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\lazy-pointer-traits.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\tr1\lazy-pointer-traits.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\lazy-ptr.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\tr1\lazy-ptr.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\lazy-ptr-impl.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\lock.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\win32\lock.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\tr1\memory.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\mutex.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\posix\mutex.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\win32\mutex.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\no-id-object-result.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\no-op-cache-traits.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\nullable.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\object-result.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\win32\once.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\win32\once-init.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\pointer-traits.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\tr1\pointer-traits.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\polymorphic-info.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\polymorphic-map.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\polymorphic-object-result.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\meta\polymorphic-p.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\compilers\vc\post.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\post.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\compilers\vc\pre.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\pre.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\prepared-query.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\query.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\query-dynamic.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\meta\remove-const.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\meta\remove-const-volatile.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\meta\remove-pointer.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\meta\remove-volatile.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\result.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\schema-catalog.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\schema-catalog-impl.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\schema-version.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\section.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\session.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\shared-ptr.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\shared-ptr-fwd.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\simple-object-result.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\statement.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\statement-processing-common.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\meta\static-assert.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\std-array-traits.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\std-deque-traits.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\std-forward-list-traits.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\std-list-traits.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\std-map-traits.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\std-set-traits.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\std-unordered-map-traits.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\std-unordered-set-traits.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\std-vector-traits.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\posix\thread.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\thread.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\win32\thread.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\posix\tls.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\tls.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\win32\tls.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\win32\tls-init.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\tracer.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\traits.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\transaction.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\transfer-ptr.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\type-info.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\unique-ptr.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\unused.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\vector.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\vector-traits.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\view-image.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\view-result.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\win32\windows.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\wrapper-p.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\tr1\wrapper-traits.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\wrapper-traits.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb\odb\details\function-wrapper.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\version.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\details\options.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\auto-handle.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\binding.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\details\config.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\connection.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\connection-factory.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\container-statements.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\details\conversion.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\database.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\error.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\exceptions.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\details\export.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\forward.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\no-id-object-result.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\no-id-object-statements.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\polymorphic-object-result.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\polymorphic-object-statements.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\prepared-query.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\query.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\query-dynamic.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\section-statements.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\simple-object-result.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\simple-object-statements.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\sqlite-types.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\statement.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\statement-cache.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\statements-base.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\tracer.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\traits.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\traits-calls.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\transaction.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\transaction-impl.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\view-result.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libodb-sqlite\odb\sqlite\view-statements.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libodb-sqlite\odb\sqlite\details\options.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libodb-sqlite\odb\sqlite\connection.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libodb-sqlite\odb\sqlite\connection-factory.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libodb-sqlite\odb\sqlite\database.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libodb-sqlite\odb\sqlite\error.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libodb-sqlite\odb\sqlite\exceptions.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libodb-sqlite\odb\sqlite\prepared-query.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libodb-sqlite\odb\sqlite\query.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libodb-sqlite\odb\sqlite\query-const-expr.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libodb-sqlite\odb\sqlite\query-dynamic.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libodb-sqlite\odb\sqlite\simple-object-statements.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libodb-sqlite\odb\sqlite\statement.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libodb-sqlite\odb\sqlite\statement-cache.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libodb-sqlite\odb\sqlite\statements-base.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libodb-sqlite\odb\sqlite\tracer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libodb-sqlite\odb\sqlite\traits.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libodb-sqlite\odb\sqlite\transaction.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libodb-sqlite\odb\sqlite\transaction-impl.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
