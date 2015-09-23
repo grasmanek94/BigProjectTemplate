@@ -6,13 +6,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="project\dummy\dummy.cxx">
-      <Filter>dummy</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="project\dummy\dummy.hxx">
+    <ClInclude Include="project\lib\dummy\dummy.hxx">
       <Filter>dummy</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="project\lib\dummy\dummy.cxx">
+      <Filter>dummy</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

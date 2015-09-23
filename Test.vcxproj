@@ -105,7 +105,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>UNIT_TESTING_FRAMEWORK;LIBODB_SQLITE_STATIC_LIB;LIBODB_MYSQL_STATIC_LIB;LIBODB_STATIC_LIB;WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>.\;.\libraries\googlemock\include;.\libraries\googletest;.\libraries\googletest\include;.\libraries\libodb;.\libraries\libodb\odb;.\libraries\libodb\odb\compilers;.\libraries\libodb\odb\compilers\vc;.\libraries\libodb\odb\tr1;.\libraries\libodb\odb\details;.\libraries\libodb\odb\details\meta;.\libraries\libodb\odb\details\posix;.\libraries\libodb\odb\details\shared-ptr;.\libraries\libodb\odb\details\win32;.\libraries\libodb-mysql;.\libraries\libodb-mysql\odb;.\libraries\libodb-mysql\odb\mysql;.\libraries\libodb-mysql\odb\mysql\details;.\libraries\mysql-connector-c\include;.\libraries\mysql_connector-c-config\include;.\libraries\libodb-sqlite;.\libraries\libodb-sqlite\odb;.\libraries\libodb-sqlite\odb\sqlite;.\libraries\libodb-sqlite\odb\sqlite\details;.\libraries\sqlite-amalgamation;.\project;.\libraries;.\libraries\glm</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\;.\libraries;.\libraries\glm;.\libraries\googlemock\include;.\libraries\googletest;.\libraries\googletest\include;.\libraries\libodb;.\libraries\libodb-mysql;.\libraries\mysql-connector-c\include;.\libraries\mysql_connector-c-config\include;.\libraries\libodb-sqlite;.\libraries\sqlite-amalgamation;.\project;.\project\lib</AdditionalIncludeDirectories>
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
@@ -123,7 +123,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>UNIT_TESTING_FRAMEWORK;LIBODB_SQLITE_STATIC_LIB;LIBODB_MYSQL_STATIC_LIB;LIBODB_STATIC_LIB;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>.\;.\libraries\googlemock\include;.\libraries\googletest;.\libraries\googletest\include;.\libraries\libodb;.\libraries\libodb\odb;.\libraries\libodb\odb\compilers;.\libraries\libodb\odb\compilers\vc;.\libraries\libodb\odb\tr1;.\libraries\libodb\odb\details;.\libraries\libodb\odb\details\meta;.\libraries\libodb\odb\details\posix;.\libraries\libodb\odb\details\shared-ptr;.\libraries\libodb\odb\details\win32;.\libraries\libodb-mysql;.\libraries\libodb-mysql\odb;.\libraries\libodb-mysql\odb\mysql;.\libraries\libodb-mysql\odb\mysql\details;.\libraries\mysql-connector-c\include;.\libraries\mysql_connector-c-config\include;.\libraries\libodb-sqlite;.\libraries\libodb-sqlite\odb;.\libraries\libodb-sqlite\odb\sqlite;.\libraries\libodb-sqlite\odb\sqlite\details;.\libraries\sqlite-amalgamation;.\project;.\libraries;.\libraries\glm</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\;.\libraries;.\libraries\glm;.\libraries\googlemock\include;.\libraries\googletest;.\libraries\googletest\include;.\libraries\libodb;.\libraries\libodb-mysql;.\libraries\mysql-connector-c\include;.\libraries\mysql_connector-c-config\include;.\libraries\libodb-sqlite;.\libraries\sqlite-amalgamation;.\project;.\project\lib</AdditionalIncludeDirectories>
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
@@ -143,7 +143,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>UNIT_TESTING_FRAMEWORK;LIBODB_SQLITE_STATIC_LIB;LIBODB_MYSQL_STATIC_LIB;LIBODB_STATIC_LIB;WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>.\;.\libraries\googlemock\include;.\libraries\googletest;.\libraries\googletest\include;.\libraries\libodb;.\libraries\libodb\odb;.\libraries\libodb\odb\compilers;.\libraries\libodb\odb\compilers\vc;.\libraries\libodb\odb\tr1;.\libraries\libodb\odb\details;.\libraries\libodb\odb\details\meta;.\libraries\libodb\odb\details\posix;.\libraries\libodb\odb\details\shared-ptr;.\libraries\libodb\odb\details\win32;.\libraries\libodb-mysql;.\libraries\libodb-mysql\odb;.\libraries\libodb-mysql\odb\mysql;.\libraries\libodb-mysql\odb\mysql\details;.\libraries\mysql-connector-c\include;.\libraries\mysql_connector-c-config\include;.\libraries\libodb-sqlite;.\libraries\libodb-sqlite\odb;.\libraries\libodb-sqlite\odb\sqlite;.\libraries\libodb-sqlite\odb\sqlite\details;.\libraries\sqlite-amalgamation;.\project;.\libraries;.\libraries\glm</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\;.\libraries;.\libraries\glm;.\libraries\googlemock\include;.\libraries\googletest;.\libraries\googletest\include;.\libraries\libodb;.\libraries\libodb-mysql;.\libraries\mysql-connector-c\include;.\libraries\mysql_connector-c-config\include;.\libraries\libodb-sqlite;.\libraries\sqlite-amalgamation;.\project;.\project\lib</AdditionalIncludeDirectories>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <OmitFramePointers>true</OmitFramePointers>
@@ -168,7 +168,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>UNIT_TESTING_FRAMEWORK;LIBODB_SQLITE_STATIC_LIB;LIBODB_MYSQL_STATIC_LIB;LIBODB_STATIC_LIB;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>.\;.\libraries\googlemock\include;.\libraries\googletest;.\libraries\googletest\include;.\libraries\libodb;.\libraries\libodb\odb;.\libraries\libodb\odb\compilers;.\libraries\libodb\odb\compilers\vc;.\libraries\libodb\odb\tr1;.\libraries\libodb\odb\details;.\libraries\libodb\odb\details\meta;.\libraries\libodb\odb\details\posix;.\libraries\libodb\odb\details\shared-ptr;.\libraries\libodb\odb\details\win32;.\libraries\libodb-mysql;.\libraries\libodb-mysql\odb;.\libraries\libodb-mysql\odb\mysql;.\libraries\libodb-mysql\odb\mysql\details;.\libraries\mysql-connector-c\include;.\libraries\mysql_connector-c-config\include;.\libraries\libodb-sqlite;.\libraries\libodb-sqlite\odb;.\libraries\libodb-sqlite\odb\sqlite;.\libraries\libodb-sqlite\odb\sqlite\details;.\libraries\sqlite-amalgamation;.\project;.\libraries;.\libraries\glm</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\;.\libraries;.\libraries\glm;.\libraries\googlemock\include;.\libraries\googletest;.\libraries\googletest\include;.\libraries\libodb;.\libraries\libodb-mysql;.\libraries\mysql-connector-c\include;.\libraries\mysql_connector-c-config\include;.\libraries\libodb-sqlite;.\libraries\sqlite-amalgamation;.\project;.\project\lib</AdditionalIncludeDirectories>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <OmitFramePointers>true</OmitFramePointers>

@@ -1,0 +1,1 @@
+#include "../sqlite-amalgamation/sqlite3.c"
