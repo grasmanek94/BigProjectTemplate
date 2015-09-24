@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\3way.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\adler32.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\algebra.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\algparam.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\arc4.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\asn.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\authenc.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\base32.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\base64.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\basecode.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\bench.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\bench2.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\bfinit.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\blowfish.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\blumshub.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\camellia.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\cast.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\casts.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\cbcmac.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\ccm.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\channels.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\cmac.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\cpu.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\crc.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\cryptlib.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\cryptlib_bds.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\datatest.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\default.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\des.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\dessp.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\dh.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\dh2.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\dll.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\dlltest.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\dsa.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\eax.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\ec2n.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\eccrypto.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\ecp.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\elgamal.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\emsa2.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\eprecomp.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\esign.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\files.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\filters.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\fips140.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\fipsalgt.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\fipstest.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\gcm.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\gf256.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\gf2n.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\gf2_32.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\gfpcrypt.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\gost.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\gzip.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\hex.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\hmac.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\hrtimer.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\ida.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\idea.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\integer.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\iterhash.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\luc.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\mars.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\marss.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\md2.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\md4.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\md5.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\misc.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\modes.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\mqueue.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\mqv.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\nbtheory.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\network.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\oaep.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\osrng.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\panama.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\pch.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\pkcspad.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\polynomi.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\pssr.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\pubkey.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\queue.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\rabin.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\randpool.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\rc2.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\rc5.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\rc6.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\rdtables.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\regtest.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\rijndael.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\ripemd.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\rng.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\rsa.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\rw.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\safer.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\salsa.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\seal.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\seed.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\serpent.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\sha.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\sha3.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\shacal2.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\shark.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\sharkbox.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\simple.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\skipjack.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\socketft.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\sosemanuk.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\square.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\squaretb.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\strciphr.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\tea.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\tftables.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\tiger.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\tigertab.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\trdlocal.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\ttmac.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\twofish.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\validat1.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\validat2.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\validat3.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\vmac.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\wait.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\wake.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\whrlpool.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\winpipes.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\xtr.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\xtrcrypt.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\zdeflate.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\zinflate.cpp" />
+    <ClCompile Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\zlib.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\3way.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\adler32.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\aes.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\algebra.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\algparam.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\arc4.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\argnames.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\asn.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\authenc.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\base32.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\base64.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\basecode.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\bench.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\blowfish.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\blumshub.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\camellia.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\cast.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\cbcmac.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\ccm.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\channels.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\cmac.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\config.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\cpu.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\crc.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\cryptlib.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\default.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\des.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\dh.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\dh2.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\dll.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\dmac.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\dsa.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\eax.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\ec2n.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\eccrypto.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\ecp.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\elgamal.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\emsa2.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\eprecomp.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\esign.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\factory.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\files.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\filters.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\fips140.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\fltrimpl.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\gcm.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\gf256.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\gf2n.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\gf2_32.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\gfpcrypt.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\gost.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\gzip.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\hex.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\hmac.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\hrtimer.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\ida.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\idea.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\integer.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\iterhash.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\lubyrack.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\luc.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\mars.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\md2.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\md4.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\md5.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\mdc.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\misc.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\modarith.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\modes.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\modexppc.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\mqueue.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\mqv.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\nbtheory.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\network.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\nr.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\oaep.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\oids.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\osrng.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\panama.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\pch.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\pkcspad.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\polynomi.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\pssr.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\pubkey.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\pwdbased.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\queue.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\rabin.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\randpool.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\rc2.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\rc5.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\rc6.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\resource.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\rijndael.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\ripemd.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\rng.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\rsa.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\rw.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\safer.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\salsa.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\seal.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\secblock.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\seckey.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\seed.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\serpent.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\serpentp.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\sha.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\sha3.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\shacal2.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\shark.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\simple.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\skipjack.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\smartptr.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\socketft.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\sosemanuk.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\square.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\stdcpp.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\strciphr.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\tea.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\tiger.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\trdlocal.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\trunhash.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\ttmac.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\twofish.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\validate.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\vmac.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\wait.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\wake.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\whrlpool.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\winpipes.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\words.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\xtr.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\xtrcrypt.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\zdeflate.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\zinflate.h" />
+    <ClInclude Include="..\..\..\VMShared\BigProjectTemplate\libraries\cryptopp\zlib.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4E46EE68-17A6-4345-856A-21D29AA5904F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>base</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>cryptopp</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)BUILD\TEMP\$(Platform)-$(Configuration)\$(ProjectName)\</IntDir>
+    <LibraryPath>$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)BUILD\TEMP\$(Platform)-$(Configuration)\$(ProjectName)\</IntDir>
+    <LibraryPath>$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)BUILD\TEMP\$(Platform)-$(Configuration)\$(ProjectName)\</IntDir>
+    <LibraryPath>$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)BUILD\TEMP\$(Platform)-$(Configuration)\$(ProjectName)\</IntDir>
+    <LibraryPath>$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>LIBODB_SQLITE_STATIC_LIB;LIBODB_MYSQL_STATIC_LIB;LIBODB_STATIC_LIB;_WINSOCK_DEPRECATED_NO_WARNINGS;WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>.\;.\cryptopp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
+      <DisableSpecificWarnings>4297;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>LIBODB_SQLITE_STATIC_LIB;LIBODB_MYSQL_STATIC_LIB;LIBODB_STATIC_LIB;_WINSOCK_DEPRECATED_NO_WARNINGS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>.\;.\cryptopp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
+      <DisableSpecificWarnings>4297;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>LIBODB_SQLITE_STATIC_LIB;LIBODB_MYSQL_STATIC_LIB;LIBODB_STATIC_LIB;_WINSOCK_DEPRECATED_NO_WARNINGS;WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>.\;.\cryptopp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
+      <DisableSpecificWarnings>4297;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>LIBODB_SQLITE_STATIC_LIB;LIBODB_MYSQL_STATIC_LIB;LIBODB_STATIC_LIB;_WINSOCK_DEPRECATED_NO_WARNINGS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>.\;.\cryptopp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
+      <DisableSpecificWarnings>4297;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

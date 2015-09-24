@@ -105,14 +105,14 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>LIBODB_SQLITE_STATIC_LIB;LIBODB_MYSQL_STATIC_LIB;LIBODB_STATIC_LIB;WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>.\;.\project;.\project\lib;.\libraries;.\libraries\glm;.\libraries\libodb;.\libraries\libodb-sqlite;.\libraries\libodb-mysql;.\libraries\mysql-connector-c\include;.\libraries\mysql_connector-c-config\include;.\libraries\sqlite-amalgamation;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\;.\project;.\project\lib;.\libraries;.\libraries\glm;.\libraries\libodb;.\libraries\libodb-sqlite;.\libraries\libodb-mysql;.\libraries\mysql-connector-c\include;.\libraries\mysql_connector-c-config\include;.\libraries\sqlite-amalgamation;.\libraries\cryptopp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\libodb.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\libodb-sqlite.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\sqlite.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\glm.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\ProjectLib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\libodb.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\libodb-sqlite.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\sqlite.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\glm.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\ProjectLib.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\cryptopp.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\Test.exe</Command>
@@ -126,14 +126,14 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>LIBODB_SQLITE_STATIC_LIB;LIBODB_MYSQL_STATIC_LIB;LIBODB_STATIC_LIB;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>.\;.\project;.\project\lib;.\libraries;.\libraries\glm;.\libraries\libodb;.\libraries\libodb-sqlite;.\libraries\libodb-mysql;.\libraries\mysql-connector-c\include;.\libraries\mysql_connector-c-config\include;.\libraries\sqlite-amalgamation;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\;.\project;.\project\lib;.\libraries;.\libraries\glm;.\libraries\libodb;.\libraries\libodb-sqlite;.\libraries\libodb-mysql;.\libraries\mysql-connector-c\include;.\libraries\mysql_connector-c-config\include;.\libraries\sqlite-amalgamation;.\libraries\cryptopp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\libodb.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\libodb-sqlite.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\sqlite.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\glm.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\ProjectLib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\libodb.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\libodb-sqlite.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\sqlite.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\glm.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\ProjectLib.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\cryptopp.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\Test.exe</Command>
@@ -149,7 +149,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>LIBODB_SQLITE_STATIC_LIB;LIBODB_MYSQL_STATIC_LIB;LIBODB_STATIC_LIB;WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>.\;.\project;.\project\lib;.\libraries;.\libraries\glm;.\libraries\libodb;.\libraries\libodb-sqlite;.\libraries\libodb-mysql;.\libraries\mysql-connector-c\include;.\libraries\mysql_connector-c-config\include;.\libraries\sqlite-amalgamation;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\;.\project;.\project\lib;.\libraries;.\libraries\glm;.\libraries\libodb;.\libraries\libodb-sqlite;.\libraries\libodb-mysql;.\libraries\mysql-connector-c\include;.\libraries\mysql_connector-c-config\include;.\libraries\sqlite-amalgamation;.\libraries\cryptopp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <OmitFramePointers>true</OmitFramePointers>
@@ -161,7 +161,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\libodb.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\libodb-sqlite.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\sqlite.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\glm.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\ProjectLib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\libodb.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\libodb-sqlite.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\sqlite.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\glm.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\ProjectLib.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\cryptopp.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\Test.exe</Command>
@@ -177,7 +177,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>LIBODB_SQLITE_STATIC_LIB;LIBODB_MYSQL_STATIC_LIB;LIBODB_STATIC_LIB;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>.\;.\project;.\project\lib;.\libraries;.\libraries\glm;.\libraries\libodb;.\libraries\libodb-sqlite;.\libraries\libodb-mysql;.\libraries\mysql-connector-c\include;.\libraries\mysql_connector-c-config\include;.\libraries\sqlite-amalgamation;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\;.\project;.\project\lib;.\libraries;.\libraries\glm;.\libraries\libodb;.\libraries\libodb-sqlite;.\libraries\libodb-mysql;.\libraries\mysql-connector-c\include;.\libraries\mysql_connector-c-config\include;.\libraries\sqlite-amalgamation;.\libraries\cryptopp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <OmitFramePointers>true</OmitFramePointers>
@@ -189,7 +189,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\libodb.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\libodb-sqlite.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\sqlite.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\glm.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\ProjectLib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\libodb.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\libodb-sqlite.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\sqlite.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\glm.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\ProjectLib.lib;$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\cryptopp.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>$(SolutionDir)BUILD\BIN\$(Platform)-$(Configuration)\Test.exe</Command>

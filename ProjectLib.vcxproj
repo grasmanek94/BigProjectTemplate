@@ -108,7 +108,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>LIBODB_SQLITE_STATIC_LIB;LIBODB_MYSQL_STATIC_LIB;LIBODB_STATIC_LIB;WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>.\;.\project;.\project\lib;.\libraries;.\libraries\glm;.\libraries\libodb;.\libraries\libodb-sqlite;.\libraries\libodb-mysql;.\libraries\mysql-connector-c\include;.\libraries\mysql_connector-c-config\include;.\libraries\sqlite-amalgamation;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\;.\project;.\project\lib;.\libraries;.\libraries\glm;.\libraries\libodb;.\libraries\libodb-sqlite;.\libraries\libodb-mysql;.\libraries\mysql-connector-c\include;.\libraries\mysql_connector-c-config\include;.\libraries\sqlite-amalgamation;.\libraries\cryptopp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
@@ -125,7 +125,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>LIBODB_SQLITE_STATIC_LIB;LIBODB_MYSQL_STATIC_LIB;LIBODB_STATIC_LIB;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>.\;.\project;.\project\lib;.\libraries;.\libraries\glm;.\libraries\libodb;.\libraries\libodb-sqlite;.\libraries\libodb-mysql;.\libraries\mysql-connector-c\include;.\libraries\mysql_connector-c-config\include;.\libraries\sqlite-amalgamation;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\;.\project;.\project\lib;.\libraries;.\libraries\glm;.\libraries\libodb;.\libraries\libodb-sqlite;.\libraries\libodb-mysql;.\libraries\mysql-connector-c\include;.\libraries\mysql_connector-c-config\include;.\libraries\sqlite-amalgamation;.\libraries\cryptopp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
@@ -144,7 +144,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>LIBODB_SQLITE_STATIC_LIB;LIBODB_MYSQL_STATIC_LIB;LIBODB_STATIC_LIB;WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>.\;.\project;.\project\lib;.\libraries;.\libraries\glm;.\libraries\libodb;.\libraries\libodb-sqlite;.\libraries\libodb-mysql;.\libraries\mysql-connector-c\include;.\libraries\mysql_connector-c-config\include;.\libraries\sqlite-amalgamation;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\;.\project;.\project\lib;.\libraries;.\libraries\glm;.\libraries\libodb;.\libraries\libodb-sqlite;.\libraries\libodb-mysql;.\libraries\mysql-connector-c\include;.\libraries\mysql_connector-c-config\include;.\libraries\sqlite-amalgamation;.\libraries\cryptopp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <OmitFramePointers>true</OmitFramePointers>
@@ -168,7 +168,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>LIBODB_SQLITE_STATIC_LIB;LIBODB_MYSQL_STATIC_LIB;LIBODB_STATIC_LIB;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>.\;.\project;.\project\lib;.\libraries;.\libraries\glm;.\libraries\libodb;.\libraries\libodb-sqlite;.\libraries\libodb-mysql;.\libraries\mysql-connector-c\include;.\libraries\mysql_connector-c-config\include;.\libraries\sqlite-amalgamation;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\;.\project;.\project\lib;.\libraries;.\libraries\glm;.\libraries\libodb;.\libraries\libodb-sqlite;.\libraries\libodb-mysql;.\libraries\mysql-connector-c\include;.\libraries\mysql_connector-c-config\include;.\libraries\sqlite-amalgamation;.\libraries\cryptopp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <OmitFramePointers>true</OmitFramePointers>
